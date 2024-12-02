@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter;
+    height: 100vh;
+    width: 100vw;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-left: 50px;
+}
+
+.top1_1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0px;
+}
+
+h1 {
+    color: #369EFF;
+    font-size: 38px;
+    width: 100%;
+}
+
+h2 {
+    color: #3E3E3E;
+    width: 100%;
+}
+
+.lore {
+    color: #808080;
+}
+
+.image {
+    background: center / cover url("computer.svg");
+    height: 320px;
+    width: 320px;
+}
+
+.couleurNom {
+    display: flex;
+    flex-direction: column;
+}
+
+.column {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+}
+
+.couleur {
+    color: #1E1E1E;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.nom {
+    color: #808080;
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+
+.beige {
+    background-color: #FBDF93;
+}
+
+.vert {
+    background-color: #D3FB93;
+}
+
+.violet {
+    background-color: #E193FB;
+}
+
+.bleu {
+    background-color: #93F0FB;
+}
+
+.jaune {
+    background-color: #F7FB93;
+}
+
+@media screen and (min-width : 800px) {
+    .top {
+        flex-direction: row;
+        padding-left: 0px;
+    }
+
+    .couleurNom {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .column {
+        width: 33.33333%;
+    }
+
+    .top1_1 {
+        width: 40%;
+        display: flex;
+        justify-content: start;
+    }
+}
+
+@media screen and (min-width : 1400px) {
+    .couleurNom {
+        flex-wrap: nowrap;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
